@@ -1,0 +1,17 @@
+16
+69/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/package.json1728337741000000000 0
+82/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist/lab1.31b563d9.js.map1760357924304188987 0
+56/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab11760356550069449364 1
+74/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/package-lock.json1728337741000000000 0
+66/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/README.md1728337741000000000 0
+78/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist/lab1.3464ddca.js1760356951629687899 0
+73/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/src/miniMaple.js1760357924278603738 0
+61/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/test1728337741000000000 1
+72/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist/index.html1760357392526390039 0
+79/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/test/miniMaple.test.js1760358362357695917 0
+60/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/src1728337741000000000 1
+69/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/src/index.js1728337741000000000 0
+61/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist1760357924304188987 1
+67/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/index.html1760357392468847777 0
+78/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist/lab1.31b563d9.js1760357924303189004 0
+82/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab1/dist/lab1.3464ddca.js.map1760356951630687890 0
