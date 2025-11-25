@@ -2647,7 +2647,7 @@
 93/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/sprintf-js/test/test.js1764062808192353385 0
 92/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-scale/src/colors.js1764062807992352497 0
 90/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-scale/src/time.js1764062808232353562 0
-71/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/styles/app.css1701087987000000000 0
+71/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/styles/app.css1764063531158736605 0
 98/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-shape/src/symbol/times.js1764062808314353926 0
 110/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/resolve/test/resolver/multirepo/packages1764062808350354086 1
 101/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/parcel/node_modules/ansi-styles1764062808000352533 1
@@ -3190,7 +3190,7 @@
 104/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/lmdb/dependencies/lz4/lib/xxhash.c1764062808375354197 0
 95/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/regjsgen/README.md1764062807968352391 0
 101/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/regions/HK.js1764062808442959475 0
-79/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.1d42ac3b.css1764062824858263938 0
+79/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.1d42ac3b.css1764063578821630823 0
 101/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/regions/GN.js1764062808441317547 0
 109/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/runtime/helpers/inheritsLoose.js1764062818488398851 0
 102/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-shape/src/order/descending.js1764062808250353642 0
@@ -3441,7 +3441,7 @@
 90/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-time/src/ticks.js1764062808134353127 0
 79/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@mischnic1764062807180348889 1
 109/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/resolve/test/shadowed_core/node_modules1764062808354354104 1
-69/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/src/index.js1764063050023204684 0
+69/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/src/index.js1764063787780266082 0
 99/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/html-escaper/cjs/package.json1764062808090352932 0
 100/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/core/lib/Dependency.js1764062808355354108 0
 120/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/utils/test/input/sourcemap/no-sourcemap.js1764062808358354121 0
@@ -4254,7 +4254,7 @@
 90/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/pirates/lib/index.js1764062807961352359 0
 113/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/features/object-values.js1764062808468354610 0
 115/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@jest/types/node_modules/chalk/source/util.js1764062808031352670 0
-72/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/index.html1764062824844426713 0
+72/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/index.html1764064110374603661 0
 92/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@jest/expect/README.md1764062808043352723 0
 95/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/yargs/build/lib/yerror.js1764062808282353784 0
 90/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-shape/src/area.js1764062808075352866 0
@@ -4598,7 +4598,7 @@
 91/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/regjsparser/parser.js1764062808055352777 0
 118/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/features/css-math-functions.js1764062808398908867 0
 105/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/runtime-js/lib/JSRuntime.js1764062808270353731 0
-78/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.31b563d9.js1764063050231689771 0
+78/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.31b563d9.js1764063787956801420 0
 95/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/balanced-match/LICENSE.md1764062807966352382 0
 95/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/lmdb/src/v8-functions.cpp1764062808388354255 0
 120/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/features/css-element-function.js1764062808391354268 0
@@ -4819,7 +4819,7 @@
 109/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/packager-css/src/CSSPackager.js1764062808036352693 0
 74/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/package-lock.json1764062818685399716 0
 101/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/error-overlay/src/utils1764062808245353620 1
-83/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.1d42ac3b.css.map1764062824859268843 0
+83/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.1d42ac3b.css.map1764063578823630802 0
 122/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@jest/reporters/node_modules/semver/functions/lte.js1764062808210353464 0
 88/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-contour/LICENSE1764062807916352160 0
 120/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/make-dir/node_modules/semver/ranges/min-version.js1764062808227353540 0
@@ -5516,7 +5516,7 @@
 117/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/plugin-transform-parameters/package.json1764062808181353336 0
 112/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/types/lib/validators/isImmutable.js1764062818509398943 0
 105/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/plugin-transform-modules-amd1764062808062352808 1
-82/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.31b563d9.js.map1764063050236879416 0
+82/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist/lab3.31b563d9.js.map1764063787963801370 0
 112/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/features/script-async.js1764062808472354627 0
 96/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/jest-get-type/package.json1764062807990352488 0
 88/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/p-limit/index.d.ts1764062808015352599 0
@@ -6196,7 +6196,7 @@
 112/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@parcel/core/lib/requests/TargetRequest.js1764062808411367696 0
 109/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/jest-haste-map/build/watchers/common.js1764062808017352608 0
 107/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/caniuse-lite/data/features/gamepad.js1764062808438675035 0
-61/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist1764063050238266868 1
+61/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/dist1764064110374800796 1
 98/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@jest/transform/package.json1764062808111353025 0
 112/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/supports-preserve-symlinks-flag/browser.js1764062807987352475 0
 104/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@jest/environment/build/index.d.ts1764062808043352723 0
@@ -11390,7 +11390,7 @@
 106/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/jest-watcher/node_modules/color-name1764062807974352417 1
 107/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/prompts/lib/dateparts/milliseconds.js1764062808306353891 0
 105/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/d3-transition/src/transition/end.js1764062808139353149 0
-67/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/index.html1701087987000000000 0
+67/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/index.html1764064112158791049 0
 132/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/@babel/preset-modules/src/plugins/transform-edge-function-name1764062808254353660 1
 100/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/prompts/lib/dateparts/index.js1764062808287353806 0
 95/home/flayven/Desktop/SFEDU/cross-platform-dev-labs/lab3/node_modules/prompts/lib/util/lines.js1764062808301353869 0
