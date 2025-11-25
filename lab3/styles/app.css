@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+}
+
+.aside {
+    flex-grow: 0.3;
+}
+
+.content {
+    flex-grow: 0.7;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#listContainer{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: black 1px solid;
+}

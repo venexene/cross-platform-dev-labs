@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+}
+
+.aside {
+  flex-grow: .3;
+}
+
+.content {
+  flex-grow: .7;
+}
+
+.point {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+#listContainer {
+  border: 1px solid #000;
+  height: 300px;
+  overflow: hidden scroll;
+}
+/*# sourceMappingURL=lab3.1d42ac3b.css.map */
