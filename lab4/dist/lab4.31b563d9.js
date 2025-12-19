@@ -27416,7 +27416,6 @@ function Map({ launchPads, selectedLaunchpad }) {
         svg.selectAll("*").remove();
         svg.attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom);
         const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
-        // Initialize projection
         projectionRef.current = _d3.geoMercator().scale(70).center([
             0,
             20
@@ -27424,12 +27423,9 @@ function Map({ launchPads, selectedLaunchpad }) {
             width / 2 - margin.left,
             height / 2 - margin.top
         ]);
-        // Render world map
         g.selectAll(".country").data(_geoJson.features).enter().append("path").attr("class", "topo").attr("d", _d3.geoPath().projection(projectionRef.current));
-        // Render launch pads with safe IDs
         g.selectAll(".launchpad").data(launchPads.features).enter().append("path").attr("id", (d)=>`pad-${d.properties.id}`) // Добавляем префикс для валидного селектора
         .attr("class", "launchpad").attr("d", _d3.geoPath().projection(projectionRef.current).pointRadius(5));
-        // Initialize zoom
         zoomRef.current = _d3.zoom().scaleExtent([
             1,
             8
@@ -27454,7 +27450,6 @@ function Map({ launchPads, selectedLaunchpad }) {
             return;
         }
         const launchPadsGroup = _d3.select(svgRef.current).select("g").selectAll(".launchpad");
-        // Находим выбранный launchpad по данным, а не по селектору
         const selectedPadData = launchPads.features.find((f)=>f.properties.id === selectedLaunchpad);
         if (!selectedPadData) return;
         const selectedCoords = selectedPadData.geometry.coordinates;
@@ -27484,12 +27479,12 @@ function Map({ launchPads, selectedLaunchpad }) {
             ref: svgRef
         }, void 0, false, {
             fileName: "src/components/map.jsx",
-            lineNumber: 106,
+            lineNumber: 101,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "src/components/map.jsx",
-        lineNumber: 105,
+        lineNumber: 100,
         columnNumber: 9
     }, this);
 }
