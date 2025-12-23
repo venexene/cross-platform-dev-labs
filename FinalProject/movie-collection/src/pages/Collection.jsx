@@ -1,21 +1,20 @@
-import { useEffect, useState } from "react";
-import { getCollection } from "../utils/storage";
 import MovieList from "../components/MovieList";
-
+import { useMovies } from "../context/MovieContext";
 
 export default function Collection() {
-    const [movies, setMovies] = useState([]);
-
-
-    useEffect(() => {
-        setMovies(getCollection());
-    }, []);
-
+    const { collection } = useMovies();
 
     return (
         <div>
             <h1>Моя коллекция</h1>
-            <MovieList movies={movies} saved />
+
+            {collection.length === 0 ? (
+                <p style={{ textAlign: "center" }}>
+                    Коллекция пуста 🎬
+                </p>
+            ) : (
+                <MovieList movies={collection} saved />
+            )}
         </div>
     );
 }

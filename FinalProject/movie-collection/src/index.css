@@ -111,3 +111,13 @@ input[type='text'] {
   display: block;
   margin: 0 auto 20px auto;
 }
+
+.card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.card-link:focus {
+  outline: 2px solid rgba(100, 108, 255, 0.6);
+  outline-offset: 2px;
+}

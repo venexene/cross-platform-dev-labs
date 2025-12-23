@@ -23,3 +23,6 @@ export const searchMovies = (query, page = 1) =>
     tmdb.get("/search/movie", {
         params: { query, page },
     });
+
+export const getMovieDetails = (movieId) =>
+    tmdb.get(`/movie/${movieId}`);

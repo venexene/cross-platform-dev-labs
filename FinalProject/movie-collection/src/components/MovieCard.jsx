@@ -1,37 +1,46 @@
-import { saveMovie, removeMovie, getCollection } from "../utils/storage";
-import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useMovies } from "../context/MovieContext";
 
 export default function MovieCard({ movie }) {
-    const [saved, setSaved] = useState(false);
+    const { addToCollection, removeFromCollection, isSaved } = useMovies();
+    const saved = isSaved(movie.id);
 
-    useEffect(() => {
-        const collection = getCollection();
-        setSaved(collection.some(m => m.id === movie.id));
-    }, [movie]);
+    const handleClick = (e) => {
+        e.stopPropagation();
 
-    const handleClick = () => {
         if (saved) {
-            removeMovie(movie.id);
-            setSaved(false);
+            removeFromCollection(movie.id);
         } else {
-            saveMovie(movie);
-            setSaved(true);
+            addToCollection(movie);
         }
     };
 
     return (
         <div className="card">
-            <div className="card-img-container">
-                <img
-                    src={movie.poster_path ? `https://image.tmdb.org/t/p/w300${movie.poster_path}` : "https://via.placeholder.com/300x450?text=No+Image"}
-                    alt={movie.title}
-                />
-            </div>
-            <div className="card-content">
-                <h3>{movie.title}</h3>
-                <p>⭐ {movie.vote_average}</p>
-            </div>
-            <button onClick={handleClick}>{saved ? "Удалить" : "Добавить"}</button>
+            <Link
+                to={`/movie/${movie.id}`}
+                className="card-link"
+            >
+                <div className="card-img-container">
+                    <img
+                        src={
+                            movie.poster_path
+                                ? `https://image.tmdb.org/t/p/w300${movie.poster_path}`
+                                : "https://via.placeholder.com/300x450?text=No+Image"
+                        }
+                        alt={movie.title}
+                    />
+                </div>
+
+                <div className="card-content">
+                    <h3>{movie.title}</h3>
+                    <p>⭐ {movie.vote_average}</p>
+                </div>
+            </Link>
+
+            <button onClick={handleClick}>
+                {saved ? "Удалить" : "Добавить"}
+            </button>
         </div>
     );
 }
